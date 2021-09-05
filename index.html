@@ -58,49 +58,62 @@
     </section>
 
     <section class="body">
-        <div class="container">
+        <div class="body_container">
             <h1 class="xizmatlar_title">Xizmatlar</h1>
             <ul class="xizmatlar_list">
                 <!-- xijoma qismi -->
-                <li>
-                    <img src="img/xijoma.svg" alt="xijoma rasmi">
-                    <h2>Xijoma</h2>
-                    <p>Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                <li class="xizmatlar_item">
+                    <img class="item_img" src="img/xijoma.svg" alt="xijoma rasmi">
+                    <div class="xizmatlar_content_wrapper">
+                        <h2 class="xizmatlar_item_title">Xijoma</h2>
+                        <p class="xizmatlar_item_text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                    </div>
                 </li>
                 <!-- Manual terapiya qismi -->
-                <li>
-                    <img src="img/manual.svg" alt="Manual terapiya rasmi">
-                    <h2>Manual Terapiya</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                <li class="xizmatlar_item">
+                    <img class="item_img" src="img/masaj.svg" alt="Manual terapiya rasmi">
+                    <div class="xizmatlar_content_wrapper">
+                        <h2 class="xizmatlar_item_title">Manual Terapiya</h2>
+                        <p class="xizmatlar_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                    </div>
                 </li>
                 <!-- zuluk bilan davolash qismi -->
-                <li>
-                    <img src="img/zuluk.svg" alt="Zuluk bilan davolash rasmi">
-                    <h2>Zuluk bilan davolash</h2>
-                    <p>Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
+                <li class="xizmatlar_item">
+                    <img class="item_img" src="img/zuluk.svg" alt="Zuluk bilan davolash rasmi" width="200" height="200">
+                    <div class="xizmatlar_content_wrapper">
+                        <h2 class="xizmatlar_item_title">Zuluk bilan davolash</h2>
+                        <p class="xizmatlar_item_text">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
+                    </div>
                 </li>
                 <!-- tabiy  yul bilan davolash qismi -->
-                <li>
-                    <img src="img/tabiy-yul.svg" alt="Tabiy yul bilan davolash ">
-                    <h2>Tabiy yul bilan davolash </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                <li class="xizmatlar_item">
+                    <img class="item_img" src="img/asal.svg" alt="Tabiy yul bilan davolash ">
+                    <div class="xizmatlar_content_wrapper">
+                        <h2 class="xizmatlar_item_title">Tabiy yul bilan davolash </h2>
+                        <p class="xizmatlar_item_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                    </div>
                 </li>
             </ul>
 
-            <a href="#">QABULGA YOZILISH</a>
+            <a class="btn xizmatlar_btn" href="#">QABULGA YOZILISH</a>
         </div>
     </section>
 
     <!-- site-footer -->
-    <div class="container">
-        <h1>Qabulga ro'yxatdan uting</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Qo'ng'iroq qilish</a></li>
-                <li><a href="#">Telegramdan yozish</a></li>
+    <section class="sub_footer">
+        <div class="container">
+            <h1 class="sub_footer_title">Qabulga ro'yxatdan uting</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Qo'ng'iroq qilish</a></li>
+                    <li><a href="#">Telegramdan yozish</a></li>
 
-            </ul>
-        </nav>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer>
         <!-- ansorlogo -->
         <img src="img/Icon/ansorlogo.svg" alt="Ansor logo">
         <!-- link -->
@@ -113,7 +126,7 @@
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav>
-    </div>
+    </footer>
 
 </body>
 </html>
