@@ -88,7 +88,7 @@ body{
     background-image: url('../img/hero-img.png');
     background-repeat: no-repeat;
     background-size: 423px 504px;
-    background-position: 800px 31px;
+    background-position: calc(50% + 340px) 31px;
 }
 .site_container{
     padding-top: 120px;
@@ -123,5 +123,12 @@ body{
 .body{
     padding-top: 120px;
     padding-bottom: 120px;
-
+}
+.xizmatlar_title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
 }
